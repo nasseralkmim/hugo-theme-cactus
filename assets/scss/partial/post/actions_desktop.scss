@@ -156,7 +156,7 @@
     overflow: auto;
     margin-top: 1rem;
     padding-right: 2rem;
-    max-width: 20em;
+    max-width: 25em;
     max-height: calc(95vh - 7rem);
     text-align: right;
 
@@ -189,7 +189,7 @@
     }
     nav > ul > li > ul > li > ul > li {
       color: darken($color-meta, 20%);
-      font-size: .4rem;
+      font-size: .55rem;
     }
     .toc-level-5 {
       display: none;
