@@ -4,7 +4,7 @@ article {
       margin-top: 0;
       margin-bottom: 0;
       text-transform: none;
-      font-size: 1.5em;
+      font-size: 2.0em;
       line-height: 1.25;
     }
     .meta {
@@ -31,7 +31,7 @@ article {
         top: -4px;
         left: -1rem;
         color: $color-accent-1;
-        content: "#";
+        content: "";
         font-weight: bold;
         font-size: 1.2rem;
       }
