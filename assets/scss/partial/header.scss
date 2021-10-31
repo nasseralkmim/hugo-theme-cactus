@@ -3,6 +3,15 @@
   width: 100%;
   text-align: right;
 
+  #title {
+      font-family: $font-family-header;
+      h1,
+      .h1 {
+      font-size: 2rem;
+      @include antialias();
+      }
+  }
+
   h1,
   .h1 {
     margin-top: 0;
