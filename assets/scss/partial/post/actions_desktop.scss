@@ -161,7 +161,7 @@
     padding-right: 2rem;
     max-width: 25em;
     max-height: calc(95vh - 7rem);
-    text-align: right;
+    text-align: left;
     
     a:hover {
       color: $color-link;
@@ -171,21 +171,21 @@
 
     nav > ul > li {
       color: $color-text;
-      font-size: .8rem;
+      font-size: .9rem;
 
       &:before {
         color: $color-accent-1;
-        content: "#";
+        content: "";
         margin-right: 8px;
       }
     }
     nav > ul > li > ul > li {
       color: $color-meta;
-      font-size: .7rem;
+      font-size: .8rem;
 
       &:before {
         color: $color-accent-1;
-        content: "·";
+        content: "";
         font-weight: bold;
         margin-right: 3px;
       }
@@ -202,6 +202,10 @@
     }
     .toc-number {
       display: none;
+    }
+    nav > ul > li > ul > li.active {
+        color: darken($color-meta, 80%);
+        text-decoration: underline;
     }
 // smartphone + phapblet
   }
@@ -245,7 +249,7 @@
       width: auto;
 
       ul {
-        display: inline-block;
+        // display: inline-block;
         float: right;
       }
       .info {
@@ -256,4 +260,4 @@
       }
     }
   }
-};
+}
