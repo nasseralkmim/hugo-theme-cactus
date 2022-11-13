@@ -63,9 +63,9 @@
     margin-right: 2rem;
     margin-left: 15px;
 
-    &:hover {
-      color: $color-accent-1;
-    }
+    // &:hover {
+    //   color: $color-accent-1;
+    // }
   }
   #menu-icon-tablet {
     float: right;
@@ -104,24 +104,29 @@
     ul {
       line-height: 15px;
 
-      a {
-        margin-right: 15px;
-        color: $color-accent-1;
-      }
-      a:hover {
-        @include underline(5px, $color-accent-1);
-      }
-      li {
-        border-right: 1px dotted $color-accent-1;
-      }
-      li:last-child {
-        margin-right: 0;
-        border-right: 0;
+    a:hover {
+      color: $color-link;
+        background-color: $color-text;
+    }
 
-        a {
-          margin-right: 0;
-        }
-      }
+      // a {
+      //   margin-right: 15px;
+      //   color: $color-accent-1;
+      // }
+      // a:hover {
+      //   @include underline(5px, $color-accent-1);
+      // }
+      // li {
+      //   border-right: 1px dotted $color-accent-1;
+      // }
+      // li:last-child {
+      //   margin-right: 0;
+      //   border-right: 0;
+
+      //   a {
+      //     margin-right: 0;
+      //   }
+      // }
     }
   }
   #actions {
@@ -165,6 +170,7 @@
     
     a:hover {
       color: $color-link;
+        background-color: $color-text;
     }
 
     a.active {

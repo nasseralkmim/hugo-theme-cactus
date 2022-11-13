@@ -57,13 +57,17 @@
       list-style-type: none;
       line-height: 15px;
 
-      a {
-        margin-right: 15px;
-        color: $color-accent-1;
-      }
-      a:hover {
-        @include underline(5px, $color-accent-1);
-      }
+    a:hover {
+      color: $color-link;
+      background-color: $color-text;}
+
+      // a {
+      //   margin-right: 15px;
+      //   color: $color-accent-1;
+      // }
+      // a:hover {
+      //   @include underline(5px, $color-accent-1);
+      // }
       li {
         display: inline-block;
         margin-right: 15px;
