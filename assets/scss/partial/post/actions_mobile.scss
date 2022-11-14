@@ -94,6 +94,15 @@
     text-align: left;
 
     #TableOfContents {
+    // float: right;
+    // clear: both;
+    overflow: auto;
+    // margin-top: 1rem;
+    // padding-right: 2rem;
+    // // max-width: 25em;
+    max-height: calc(95vh - 7rem);
+    // text-align: left;
+
       ul {
         margin: 0;
         padding-left: 20px;
@@ -110,30 +119,30 @@
     // .toc-level-1 > .toc-link
     //   display: none
 
-    #TableOfContents > ul > li {
-      color: $color-text;
-      font-size: .8rem;
+    // #TableOfContents > ul > li {
+    //   color: $color-text;
+    //   font-size: .8rem;
 
-      &:before {
-        color: $color-accent-1;
-        content: "#";
-        margin-right: 8px;
-      }
-    }
-    #TableOfContents > ul > li > ul > li {
-      color: $color-meta;
-      font-size: .7rem;
-      line-height: 15px;
+    //   &:before {
+    //     color: $color-accent-1;
+    //     content: "#";
+    //     margin-right: 8px;
+    //   }
+    // }
+    // #TableOfContents > ul > li > ul > li {
+    //   color: $color-meta;
+    //   font-size: .7rem;
+    //   line-height: 15px;
 
-      &:before {
-        color: $color-accent-1;
-        content: "·";
+    //   &:before {
+    //     color: $color-accent-1;
+    //     content: "·";
 
-        font-weight: bold;
+    //     font-weight: bold;
 
-        margin-right: 3px;
-      }
-    }
+    //     margin-right: 3px;
+    //   }
+    // }
     #TableOfContents > ul > li > ul > li > ul > li {
       display: none;
     }
